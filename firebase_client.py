@@ -16,7 +16,7 @@ def init_firebase():
 
     cred = credentials.Certificate(cred_path)
     _firebase_app = firebase_admin.initialize_app(cred, {
-        "databaseURL": "https://wavebell-cd074-default-rtdb.asia-southeast1.firebasedatabase.app"
+        "databaseURL": "your_Database_url"
     })
     return _firebase_app
 
